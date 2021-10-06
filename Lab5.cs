@@ -101,6 +101,146 @@ namespace lesson2.Solutions
             else
             System.Console.WriteLine("Normal year");
         }
-    }
+        public void Problem7()
+        {
+            int a = int.Parse(Console.ReadLine());
+            int v=5;
+            if (a==v)
+            {
+  
+                System.Console.WriteLine("Correct");
+            
+            }
+            else 
+            {
+            
+                if (a>v)
+                {
+            
+                System.Console.WriteLine("Down");
+
+                }
+            
+                else 
+                {
+            
+                System.Console.WriteLine("Up");
+            
+                    int c = int.Parse(Console.ReadLine());
+                    
+                    if (c==v)
+                    
+                    System.Console.WriteLine("Correct");
+                    
+                    else 
+                    {
+                    
+                        if (c>v)
+                        {
+                    
+                        System.Console.WriteLine("Down");
+
+                        }
+                    
+                        else 
+                        {
+                    
+                        System.Console.WriteLine("Up");
+            
+                        }
+                    }
+                }
+            }
+        }
+        public void Problem8()
+        {
+            char ch;
+            Char.TryParse(Console.ReadLine(), out ch);
+            if (ch>=65 && ch<=90)
+            {
+                Console.WriteLine(char.ToLower(ch));
+            }  
+            else if (ch>=97 && ch<=122)
+            {
+                Console.WriteLine(char.ToUpper(ch));
+            }
+            else 
+            System.Console.WriteLine("None");
+        }
+        public void Problem9()
+        {
+            int t1 = int.Parse(Console.ReadLine());
+            int t2 = int.Parse(Console.ReadLine());
+            int t3 = int.Parse(Console.ReadLine());
+            int j1 = int.Parse(Console.ReadLine());
+            int j2 = int.Parse(Console.ReadLine());
+            int j3 = int.Parse(Console.ReadLine());
+            int strike = 0;
+
+                    int ball = 0;
+
+                    if(t1 == j1)
+
+                    {
+
+                        strike++;
+
+                    }
+
+                    else if(t1 == j2 || t1 == j3)
+
+                    {
+
+                        ball++;
+
+                    }
+
+                    if(t2 == j2)
+
+                    {
+
+                        strike++;
+
+                    }
+
+                    else if(t2 == j3 || t2 == j1)
+
+                    {
+
+                        ball++;
+
+                    }
+
+                        if(t3 == j3)
+
+                        {
+
+                        strike++;
+                        }
+
+                        else if(t3 == j1 || t3 == j2)
+
+                        {
+
+                        ball++;
+                        System.Console.WriteLine(strike+"S"+ball+"B");
+                        }
+                        else 
+                        {
+                            System.Console.WriteLine(strike+"S"+ball+"B");
+                        }
+                        
+                        
+
+
+         }
+
+                       
+                        
+                        
+                        
+     }
 }
+    
+
 
