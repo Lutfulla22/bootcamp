@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using lesson1.Solutions;
 using lesson2.Solutions;
 namespace lesson2
 {
