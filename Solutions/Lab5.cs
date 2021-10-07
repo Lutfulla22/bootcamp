@@ -482,9 +482,3 @@ namespace lesson2.Solutions
 
     }
 }   
-                        
-                        
-     
-    
-
-
