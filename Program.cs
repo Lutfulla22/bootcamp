@@ -16,8 +16,18 @@ namespace lesson2
             // lab5.Problem6();
             // lab5.Problem7();
             // lab5.Problem8();
-            lab5.Problem9();
-            
+            // lab5.Problem9();
+            lab5.Problem10();
+            lab5.Problem11();
+            lab5.Problem12();
+            lab5.Problem13();
+            lab5.Problem14();
+            lab5.Problem15();
+            lab5.Problem16();
+            lab5.Problem17();
+            lab5.Problem18();
+            lab5.Problem19();
+            lab5.Problem20();
         }
         static void Main1(string[] args)
         {
