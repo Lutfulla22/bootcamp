@@ -94,6 +94,25 @@ namespace lesson2
             // lab5.Problem19();
             // lab5.Problem20();
         }
+        static void Main_Array()
+        {
+            var arr = new Arrays();
+            // arr.Problem1();
+            // arr.Problem2();
+            // arr.Problem3();
+            // arr.Problem4();
+            // arr.Problem5();
+        }
+        static void Main_List()
+        {
+            // var list = new List();
+            // list.Problemm1();
+        }
+        static void Main_Dict()
+        {
+            // var dic = new Dictionary();
+            // dic.Prob1();
+        }
         static void Main1(string[] args)
         {
             // int? a = null;
