@@ -115,32 +115,8 @@ namespace lesson2
         }
         static void Main1(string[] args)
         {
-            // int? a = null;
-            // string hechnarsa = string.Empty;
-
-            // if (hechnarsa is null)
-            // {
-            //     System.Console.WriteLine("Hechnima nullga teng");
-            // }
-            // else 
-            // {
-            //     System.Console.WriteLine($"hechnima {hechnarsa} ga teng");
-            // }
-
-            // int son = int.Parse(Console.ReadLine());
-
-            // switch (son)
-            // {
-            //     case 1: Console.WriteLine("Siz bir kritingz"); break;
-            //     case 2: Console.WriteLine("Siz ikki kritingz"); break;
-            //     case 3: Console.WriteLine("Siz uch kritingz"); break;
-            //     case 4: Console.WriteLine("Siz tort kritingz"); break;
-            
-            
-                
-            //     default: Console.WriteLine($"siz {son} kiritiz"); break;
-            // }
-            int n = int.Parse(Console.ReadLine());
+           var lab8 = new Lab8();
+            lab8.Problem8_9();
             
             
         }
